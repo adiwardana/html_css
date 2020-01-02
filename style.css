@@ -1,0 +1,153 @@
+
+/* Homepage */
+#body {
+    background-image:url(img/bg6-2.png);
+    background-size: cover;
+}
+/* Navigasi */
+/* .container {
+    border: 1px solid whitesmoke;
+     background-image: url(img/bg6-1.png);
+} */
+.container .row {
+    margin-top: 30px;
+    margin-left: -60px;
+}
+.container .row .col-lg {
+    margin-left: -30px;
+}
+.container .row .col-lg ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
+.container .row .col-lg ul li a {
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(196, 195, 195);
+}
+.container .row .col-lg ul li a:hover {
+    color: white;
+}
+.container .row .col-lg ul li button {
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 10px;
+    padding-right:25px;
+    padding-left: 25px;
+    border: 2px solid white;
+    background:transparent;
+    color: white;
+}
+.container .row .col-lg ul .free:hover {
+    background-color: white;
+    color:rgb(34, 116, 240);
+    border: 2px solid #0492d6;
+}
+.container .row .col-lg ul .pro:hover {
+    background-image: linear-gradient(to right, rgb(28, 221, 38), rgb(34, 116, 240));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 2px solid whitesmoke;
+}
+
+.container .row .col-lg ul .pro {
+    border: none;
+    background-image: linear-gradient(to right, rgb(28, 221, 38), rgb(34, 116, 240));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.container .row .col-lg img {
+    width: 60px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.container .row .col-lg span {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+ 
+}
+.container .row .col-lg h4 {
+    display: inline-block;
+    color: #06bcd8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: whitesmoke;
+    margin-right: 4px;
+    margin-left: 4px;
+    font-weight: 120;
+
+}
+/* Akhir Navigasi */
+/* Isi */
+.container .row .col-lg-6{
+    margin-top: 110px;
+}
+.container .col-lg-6 .komputer {
+    width: 500px;
+    height: 400ppx;
+    margin-top: -40px;
+   margin-left: 30px;
+}
+.container .col-lg-6 h1 {
+    color: whitesmoke;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.container .col-lg-6 p {
+    margin-left: 40px;
+    color: whitesmoke;
+}
+.container .row .col-lg-6 button {
+    margin-left: 160px;
+}
+.container .row .col-lg-6 .get {
+    /* color: whitesmoke; */
+    margin-right: -155px;
+    border-radius:40px ;
+    width: 131px;
+    height: 46px;
+    background-color: whitesmoke;
+    color: rgb(5, 172, 214);
+    font-weight: bold;
+    border: none;
+}
+.container .row .col-lg-6 .features {
+    /* color: whitesmoke; */
+    border-radius:40px ;
+    width: 130px;
+    height: 45px;
+    border: 2px solid whitesmoke;
+    background-color:transparent ;
+    color: whitesmoke;
+}
+.container .row .col-lg-6 .get:hover {
+    background-color: gold;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.container .row .col-lg-6 .features:hover {
+    background-color: whitesmoke;
+    color: rgb(5, 172, 214);
+    font-weight: bold;
+}
+/* Akhir Isi */
+/* Akhir Homepage */
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+    #body {
+        height: 728px;
+        background-image:url(img/bg6-2.png);
+        background-size: cover;
+    }
+
+
+}

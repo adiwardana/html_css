@@ -1,0 +1,134 @@
+/* Mobile Version */
+/* *{
+    border: 1px solid whitesmoke;
+} */
+
+
+/* Loginform */
+.kotak-login {
+    background-color: whitesmoke;
+    width: 350px;
+    height: 250px;
+    margin-top: 120px;
+    border-radius: 25px;
+    /* background-image: linear-gradient(to top, rgb(43, 97, 245), rgb(67, 101, 252), rgb(60, 78, 245)); */
+    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6); */
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.login-form {
+    margin-left: 120px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.form {
+    padding: 3px;
+    padding-left:15px ;
+    width: 100%;
+    height: 30px;
+    margin-left: -60px;
+    border-radius: 20px;
+    border: 2px solid teal;
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: teal;
+}
+
+
+.tombol {
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    margin-left: -60px;
+    border-radius: 20px;
+    color: whitesmoke;
+    background: teal;
+
+}
+
+
+.logo {
+    margin-left: 80px;
+    padding: 15px;
+    width: 130px;
+    height: 110px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: teal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+/* Akhir Loginform */
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+    #body {
+        height: 728px;
+        background-image:url(img/bg3.jpg);
+        background-size: cover;
+    }
+
+    .kotak-login {
+        background-color: whitesmoke;
+        width: 450px;
+        height: 350px;
+        margin-top: 120px;
+        border-radius: 25px;
+        /* background-image: linear-gradient(to top, rgb(43, 97, 245), rgb(67, 101, 252), rgb(60, 78, 245)); */
+        /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6); */
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .login-form {
+        margin-left: 120px;
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+
+    .form {
+        padding: 3px;
+        padding-left:15px ;
+        width: 100%;
+        height: 40px;
+        margin-left: -60px;
+        border-radius: 20px;
+        border: 2px solid teal;
+        background-color: transparent;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: teal;
+    }
+
+
+    .tombol {
+        margin-top: 10px;
+        width: 100px;
+        margin-left: -60px;
+        border-radius: 20px;
+        color: whitesmoke;
+        background: teal;
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 110px;
+        padding: 15px;
+        width: 180px;
+        height: 150px;
+    }
+
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: teal;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 16px;
+        
+    }
+
+}
